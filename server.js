@@ -28,7 +28,7 @@ const reportRoutes = require("./routes/reportRoutes.js");
 const ViewReportRoutes = require("./routes/Reportroute.js");
 // Middleware for CORS
 app.use(cors({
-  origin: '*', // Adjust to specific Netlify URL if preferred
+  origin: 'https://careerpathway.netlify.app', // Adjust to specific Netlify URL if preferred
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
